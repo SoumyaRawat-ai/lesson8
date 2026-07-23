@@ -1,6 +1,9 @@
-const appOperations = require('../src/appOperations');
+const { multiply, add } = require('../src/appOperations');
 
 test("multiplication property of zero", ()=> {
-    expect(appOperations(5,0)).toBe(60);
+    expect(multiply(5, 0)).toBe(0);
 });
 
+test("addition function", ()=> {
+    expect(add(5, 10)).toBe(15);
+});
