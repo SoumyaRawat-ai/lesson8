@@ -1,4 +1,4 @@
-const { multiply, add, subtract } = require('../src/appOperations');
+const { multiply, add, subtract, divide } = require('../src/appOperations');
 
 test("multiplication property of zero", ()=> {
     expect(multiply(5, 0)).toBe(0);
@@ -11,4 +11,6 @@ test("addition function", ()=> {
 test("test subtraction", ()=> {
     expect(subtract(15, 5)).toBe(10);
 });
-
+test("test divide", ()=> {
+    expect(divide(15, 5)).toBe(3);
+});
