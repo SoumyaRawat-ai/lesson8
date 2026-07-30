@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/SoumyaRawat-ai/lesson8#readme",
   "devDependencies": {
-    "jest": "^29.0.0"
+    "jest": "^30.4.2"
   }
 }
